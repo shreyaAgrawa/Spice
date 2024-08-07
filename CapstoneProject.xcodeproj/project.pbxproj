@@ -1,0 +1,721 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC8B59B12830527B008C157D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8B59B02830527B008C157D /* AppDelegate.swift */; };
+		FC8B59B32830527B008C157D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8B59B22830527B008C157D /* SceneDelegate.swift */; };
+		FC8B59B52830527B008C157D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8B59B42830527B008C157D /* ViewController.swift */; };
+		FC8B59B82830527B008C157D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC8B59B62830527B008C157D /* Main.storyboard */; };
+		FC8B59BA2830527D008C157D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC8B59B92830527D008C157D /* Assets.xcassets */; };
+		FC8B59BD2830527D008C157D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC8B59BB2830527D008C157D /* LaunchScreen.storyboard */; };
+		FC8B59C82830527D008C157D /* CapstoneProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8B59C72830527D008C157D /* CapstoneProjectTests.swift */; };
+		FC8B59D22830527D008C157D /* CapstoneProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8B59D12830527D008C157D /* CapstoneProjectUITests.swift */; };
+		FC8B59D42830527D008C157D /* CapstoneProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8B59D32830527D008C157D /* CapstoneProjectUITestsLaunchTests.swift */; };
+		FC8B59E42830AA25008C157D /* BDDXS5XLARLIIXZSYA57LKYVBU.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FC8B59E32830AA25008C157D /* BDDXS5XLARLIIXZSYA57LKYVBU.jpg */; };
+		FC8B59E62830ACB8008C157D /* 171294266-lady-chef-is-holding-the-spatula-in-hand-vector-graphic-illustration-individually-on-a-white-backgro.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FC8B59E52830ACB8008C157D /* 171294266-lady-chef-is-holding-the-spatula-in-hand-vector-graphic-illustration-individually-on-a-white-backgro.jpg */; };
+		FC8B59E82830AD8B008C157D /* f1digitals210300962-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FC8B59E72830AD8B008C157D /* f1digitals210300962-2.jpg */; };
+		FC8B59E92830AF1D008C157D /* 171294266-lady-chef-is-holding-the-spatula-in-hand-vector-graphic-illustration-individually-on-a-white-backgro.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FC8B59E52830ACB8008C157D /* 171294266-lady-chef-is-holding-the-spatula-in-hand-vector-graphic-illustration-individually-on-a-white-backgro.jpg */; };
+		FC8B59EA2830AF1E008C157D /* 171294266-lady-chef-is-holding-the-spatula-in-hand-vector-graphic-illustration-individually-on-a-white-backgro.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FC8B59E52830ACB8008C157D /* 171294266-lady-chef-is-holding-the-spatula-in-hand-vector-graphic-illustration-individually-on-a-white-backgro.jpg */; };
+		FC8B59EB2830AF21008C157D /* BDDXS5XLARLIIXZSYA57LKYVBU.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FC8B59E32830AA25008C157D /* BDDXS5XLARLIIXZSYA57LKYVBU.jpg */; };
+		FC8B59EC2830AF21008C157D /* BDDXS5XLARLIIXZSYA57LKYVBU.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FC8B59E32830AA25008C157D /* BDDXS5XLARLIIXZSYA57LKYVBU.jpg */; };
+		FC8B59ED2830AF24008C157D /* f1digitals210300962-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FC8B59E72830AD8B008C157D /* f1digitals210300962-2.jpg */; };
+		FC8B59EE2830AF25008C157D /* f1digitals210300962-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FC8B59E72830AD8B008C157D /* f1digitals210300962-2.jpg */; };
+		FC8B59EF2830AF3B008C157D /* Tomatoes-O8L8.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC8B59E02830A818008C157D /* Tomatoes-O8L8.ttf */; };
+		FC8B59F02830AF3C008C157D /* Tomatoes-O8L8.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC8B59E02830A818008C157D /* Tomatoes-O8L8.ttf */; };
+		FC8B59F12830AF3C008C157D /* Tomatoes-O8L8.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC8B59E02830A818008C157D /* Tomatoes-O8L8.ttf */; };
+		FC8B59F22830AF40008C157D /* MarketSaturday.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC8B59E12830A926008C157D /* MarketSaturday.ttf */; };
+		FC8B59F82830AFBF008C157D /* MarketSaturday.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC8B59E12830A926008C157D /* MarketSaturday.ttf */; };
+		FC8B59F92830AFC0008C157D /* MarketSaturday.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC8B59E12830A926008C157D /* MarketSaturday.ttf */; };
+		FC8B59FB2830B4B8008C157D /* MarketSaturday.otf in Resources */ = {isa = PBXBuildFile; fileRef = FC8B59FA2830B4B8008C157D /* MarketSaturday.otf */; };
+		FC8B59FD2830B548008C157D /* RosseDemoRegular-dP87.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC8B59FC2830B548008C157D /* RosseDemoRegular-dP87.ttf */; };
+		FC8B59FF2830BE3E008C157D /* MusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8B59FE2830BE3E008C157D /* MusicViewController.swift */; };
+		FC8B5A0128313454008C157D /* Ambient Sounds - Debarup Travel & Films in Resources */ = {isa = PBXBuildFile; fileRef = FC8B5A0028313454008C157D /* Ambient Sounds - Debarup Travel & Films */; };
+		FC8B5A03283136CF008C157D /* 1 - Fire.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FC8B5A02283136CF008C157D /* 1 - Fire.mp3 */; };
+		FC8B5A05283136DC008C157D /* 6 - Thunder.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FC8B5A04283136DC008C157D /* 6 - Thunder.mp3 */; };
+		FC8B5A07283136E7008C157D /* 9 - Rain On Rooftop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FC8B5A06283136E7008C157D /* 9 - Rain On Rooftop.mp3 */; };
+		FC8B5A0828313748008C157D /* 1 - Fire.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FC8B5A02283136CF008C157D /* 1 - Fire.mp3 */; };
+		FC8B5A0928313748008C157D /* 1 - Fire.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FC8B5A02283136CF008C157D /* 1 - Fire.mp3 */; };
+		FC8B5A0A2831376A008C157D /* 6 - Thunder.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FC8B5A04283136DC008C157D /* 6 - Thunder.mp3 */; };
+		FC8B5A0B2831376B008C157D /* 6 - Thunder.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FC8B5A04283136DC008C157D /* 6 - Thunder.mp3 */; };
+		FC8B5A0C2831376E008C157D /* 9 - Rain On Rooftop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FC8B5A06283136E7008C157D /* 9 - Rain On Rooftop.mp3 */; };
+		FC8B5A0D2831376F008C157D /* 9 - Rain On Rooftop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FC8B5A06283136E7008C157D /* 9 - Rain On Rooftop.mp3 */; };
+		FC8B5A0E28313773008C157D /* Ambient Sounds - Debarup Travel & Films in Resources */ = {isa = PBXBuildFile; fileRef = FC8B5A0028313454008C157D /* Ambient Sounds - Debarup Travel & Films */; };
+		FC8B5A0F28313774008C157D /* Ambient Sounds - Debarup Travel & Films in Resources */ = {isa = PBXBuildFile; fileRef = FC8B5A0028313454008C157D /* Ambient Sounds - Debarup Travel & Films */; };
+		FCEDE93628315030001D9C08 /* WordScrambleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEDE93528315030001D9C08 /* WordScrambleViewController.swift */; };
+		FCEDE9372831672A001D9C08 /* MusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8B59FE2830BE3E008C157D /* MusicViewController.swift */; };
+		FCEDE9382831672B001D9C08 /* MusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8B59FE2830BE3E008C157D /* MusicViewController.swift */; };
+		FCEDE93928316730001D9C08 /* WordScrambleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEDE93528315030001D9C08 /* WordScrambleViewController.swift */; };
+		FCEDE93A28316731001D9C08 /* WordScrambleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEDE93528315030001D9C08 /* WordScrambleViewController.swift */; };
+		FCEDE93B28316736001D9C08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC8B59B62830527B008C157D /* Main.storyboard */; };
+		FCEDE93C28316737001D9C08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC8B59B62830527B008C157D /* Main.storyboard */; };
+		FCEDE93D28316C0F001D9C08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC8B59B92830527D008C157D /* Assets.xcassets */; };
+		FCEDE93E28316C10001D9C08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC8B59B92830527D008C157D /* Assets.xcassets */; };
+		FCEDE94028318341001D9C08 /* SpiceFactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEDE93F28318341001D9C08 /* SpiceFactViewController.swift */; };
+		FCEDE94128318D9B001D9C08 /* SpiceFactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEDE93F28318341001D9C08 /* SpiceFactViewController.swift */; };
+		FCEDE94228318D9C001D9C08 /* SpiceFactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEDE93F28318341001D9C08 /* SpiceFactViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC8B59C42830527D008C157D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC8B59A52830527B008C157D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC8B59AC2830527B008C157D;
+			remoteInfo = CapstoneProject;
+		};
+		FC8B59CE2830527D008C157D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC8B59A52830527B008C157D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC8B59AC2830527B008C157D;
+			remoteInfo = CapstoneProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC8B59AD2830527B008C157D /* CapstoneProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CapstoneProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC8B59B02830527B008C157D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC8B59B22830527B008C157D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FC8B59B42830527B008C157D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FC8B59B72830527B008C157D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC8B59B92830527D008C157D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC8B59BC2830527D008C157D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC8B59BE2830527D008C157D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC8B59C32830527D008C157D /* CapstoneProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CapstoneProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC8B59C72830527D008C157D /* CapstoneProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapstoneProjectTests.swift; sourceTree = "<group>"; };
+		FC8B59CD2830527D008C157D /* CapstoneProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CapstoneProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC8B59D12830527D008C157D /* CapstoneProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapstoneProjectUITests.swift; sourceTree = "<group>"; };
+		FC8B59D32830527D008C157D /* CapstoneProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapstoneProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FC8B59E02830A818008C157D /* Tomatoes-O8L8.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Tomatoes-O8L8.ttf"; path = "../../../Downloads/tomatoes-font/Tomatoes-O8L8.ttf"; sourceTree = "<group>"; };
+		FC8B59E12830A926008C157D /* MarketSaturday.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = MarketSaturday.ttf; path = "../../../Downloads/market-saturday-cufonfonts/MarketSaturday.ttf"; sourceTree = "<group>"; };
+		FC8B59E32830AA25008C157D /* BDDXS5XLARLIIXZSYA57LKYVBU.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = BDDXS5XLARLIIXZSYA57LKYVBU.jpg; path = ../../../Downloads/BDDXS5XLARLIIXZSYA57LKYVBU.jpg; sourceTree = "<group>"; };
+		FC8B59E52830ACB8008C157D /* 171294266-lady-chef-is-holding-the-spatula-in-hand-vector-graphic-illustration-individually-on-a-white-backgro.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "171294266-lady-chef-is-holding-the-spatula-in-hand-vector-graphic-illustration-individually-on-a-white-backgro.jpg"; path = "../../../Downloads/171294266-lady-chef-is-holding-the-spatula-in-hand-vector-graphic-illustration-individually-on-a-white-backgro.jpg"; sourceTree = "<group>"; };
+		FC8B59E72830AD8B008C157D /* f1digitals210300962-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "f1digitals210300962-2.jpg"; path = "../../../Downloads/f1digitals210300962-2.jpg"; sourceTree = "<group>"; };
+		FC8B59FA2830B4B8008C157D /* MarketSaturday.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = MarketSaturday.otf; path = "../../../Downloads/market-saturday-cufonfonts/MarketSaturday.otf"; sourceTree = "<group>"; };
+		FC8B59FC2830B548008C157D /* RosseDemoRegular-dP87.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "RosseDemoRegular-dP87.ttf"; path = "../../../Downloads/rosse-font/RosseDemoRegular-dP87.ttf"; sourceTree = "<group>"; };
+		FC8B59FE2830BE3E008C157D /* MusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicViewController.swift; sourceTree = "<group>"; };
+		FC8B5A0028313454008C157D /* Ambient Sounds - Debarup Travel & Films */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Ambient Sounds - Debarup Travel & Films"; path = "../../../Downloads/Ambient Sounds - Debarup Travel & Films"; sourceTree = "<group>"; };
+		FC8B5A02283136CF008C157D /* 1 - Fire.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "1 - Fire.mp3"; path = "../../../Downloads/Ambient Sounds - Debarup Travel & Films/1 - Fire.mp3"; sourceTree = "<group>"; };
+		FC8B5A04283136DC008C157D /* 6 - Thunder.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "6 - Thunder.mp3"; path = "../../../Downloads/Ambient Sounds - Debarup Travel & Films/6 - Thunder.mp3"; sourceTree = "<group>"; };
+		FC8B5A06283136E7008C157D /* 9 - Rain On Rooftop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "9 - Rain On Rooftop.mp3"; path = "../../../Downloads/Ambient Sounds - Debarup Travel & Films/9 - Rain On Rooftop.mp3"; sourceTree = "<group>"; };
+		FCEDE93528315030001D9C08 /* WordScrambleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordScrambleViewController.swift; sourceTree = "<group>"; };
+		FCEDE93F28318341001D9C08 /* SpiceFactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiceFactViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC8B59AA2830527B008C157D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC8B59C02830527D008C157D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC8B59CA2830527D008C157D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC8B59A42830527B008C157D = {
+			isa = PBXGroup;
+			children = (
+				FC8B59AF2830527B008C157D /* CapstoneProject */,
+				FC8B59C62830527D008C157D /* CapstoneProjectTests */,
+				FC8B59D02830527D008C157D /* CapstoneProjectUITests */,
+				FC8B59AE2830527B008C157D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC8B59AE2830527B008C157D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC8B59AD2830527B008C157D /* CapstoneProject.app */,
+				FC8B59C32830527D008C157D /* CapstoneProjectTests.xctest */,
+				FC8B59CD2830527D008C157D /* CapstoneProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC8B59AF2830527B008C157D /* CapstoneProject */ = {
+			isa = PBXGroup;
+			children = (
+				FC8B59B02830527B008C157D /* AppDelegate.swift */,
+				FC8B59B22830527B008C157D /* SceneDelegate.swift */,
+				FC8B59B42830527B008C157D /* ViewController.swift */,
+				FC8B59B62830527B008C157D /* Main.storyboard */,
+				FCEDE93F28318341001D9C08 /* SpiceFactViewController.swift */,
+				FCEDE93528315030001D9C08 /* WordScrambleViewController.swift */,
+				FC8B5A02283136CF008C157D /* 1 - Fire.mp3 */,
+				FC8B5A04283136DC008C157D /* 6 - Thunder.mp3 */,
+				FC8B5A06283136E7008C157D /* 9 - Rain On Rooftop.mp3 */,
+				FC8B59FE2830BE3E008C157D /* MusicViewController.swift */,
+				FC8B5A0028313454008C157D /* Ambient Sounds - Debarup Travel & Films */,
+				FC8B59FC2830B548008C157D /* RosseDemoRegular-dP87.ttf */,
+				FC8B59FA2830B4B8008C157D /* MarketSaturday.otf */,
+				FC8B59B92830527D008C157D /* Assets.xcassets */,
+				FC8B59BB2830527D008C157D /* LaunchScreen.storyboard */,
+				FC8B59BE2830527D008C157D /* Info.plist */,
+				FC8B59E02830A818008C157D /* Tomatoes-O8L8.ttf */,
+				FC8B59E12830A926008C157D /* MarketSaturday.ttf */,
+				FC8B59E52830ACB8008C157D /* 171294266-lady-chef-is-holding-the-spatula-in-hand-vector-graphic-illustration-individually-on-a-white-backgro.jpg */,
+				FC8B59E32830AA25008C157D /* BDDXS5XLARLIIXZSYA57LKYVBU.jpg */,
+				FC8B59E72830AD8B008C157D /* f1digitals210300962-2.jpg */,
+			);
+			path = CapstoneProject;
+			sourceTree = "<group>";
+		};
+		FC8B59C62830527D008C157D /* CapstoneProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC8B59C72830527D008C157D /* CapstoneProjectTests.swift */,
+			);
+			path = CapstoneProjectTests;
+			sourceTree = "<group>";
+		};
+		FC8B59D02830527D008C157D /* CapstoneProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FC8B59D12830527D008C157D /* CapstoneProjectUITests.swift */,
+				FC8B59D32830527D008C157D /* CapstoneProjectUITestsLaunchTests.swift */,
+			);
+			path = CapstoneProjectUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC8B59AC2830527B008C157D /* CapstoneProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC8B59D72830527D008C157D /* Build configuration list for PBXNativeTarget "CapstoneProject" */;
+			buildPhases = (
+				FC8B59A92830527B008C157D /* Sources */,
+				FC8B59AA2830527B008C157D /* Frameworks */,
+				FC8B59AB2830527B008C157D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CapstoneProject;
+			productName = CapstoneProject;
+			productReference = FC8B59AD2830527B008C157D /* CapstoneProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC8B59C22830527D008C157D /* CapstoneProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC8B59DA2830527D008C157D /* Build configuration list for PBXNativeTarget "CapstoneProjectTests" */;
+			buildPhases = (
+				FC8B59BF2830527D008C157D /* Sources */,
+				FC8B59C02830527D008C157D /* Frameworks */,
+				FC8B59C12830527D008C157D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC8B59C52830527D008C157D /* PBXTargetDependency */,
+			);
+			name = CapstoneProjectTests;
+			productName = CapstoneProjectTests;
+			productReference = FC8B59C32830527D008C157D /* CapstoneProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FC8B59CC2830527D008C157D /* CapstoneProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC8B59DD2830527D008C157D /* Build configuration list for PBXNativeTarget "CapstoneProjectUITests" */;
+			buildPhases = (
+				FC8B59C92830527D008C157D /* Sources */,
+				FC8B59CA2830527D008C157D /* Frameworks */,
+				FC8B59CB2830527D008C157D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC8B59CF2830527D008C157D /* PBXTargetDependency */,
+			);
+			name = CapstoneProjectUITests;
+			productName = CapstoneProjectUITests;
+			productReference = FC8B59CD2830527D008C157D /* CapstoneProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC8B59A52830527B008C157D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					FC8B59AC2830527B008C157D = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					FC8B59C22830527D008C157D = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = FC8B59AC2830527B008C157D;
+					};
+					FC8B59CC2830527D008C157D = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = FC8B59AC2830527B008C157D;
+					};
+				};
+			};
+			buildConfigurationList = FC8B59A82830527B008C157D /* Build configuration list for PBXProject "CapstoneProject" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC8B59A42830527B008C157D;
+			productRefGroup = FC8B59AE2830527B008C157D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC8B59AC2830527B008C157D /* CapstoneProject */,
+				FC8B59C22830527D008C157D /* CapstoneProjectTests */,
+				FC8B59CC2830527D008C157D /* CapstoneProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC8B59AB2830527B008C157D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC8B59FD2830B548008C157D /* RosseDemoRegular-dP87.ttf in Resources */,
+				FC8B5A0128313454008C157D /* Ambient Sounds - Debarup Travel & Films in Resources */,
+				FC8B5A03283136CF008C157D /* 1 - Fire.mp3 in Resources */,
+				FC8B59E62830ACB8008C157D /* 171294266-lady-chef-is-holding-the-spatula-in-hand-vector-graphic-illustration-individually-on-a-white-backgro.jpg in Resources */,
+				FC8B59E42830AA25008C157D /* BDDXS5XLARLIIXZSYA57LKYVBU.jpg in Resources */,
+				FC8B59E82830AD8B008C157D /* f1digitals210300962-2.jpg in Resources */,
+				FC8B59BD2830527D008C157D /* LaunchScreen.storyboard in Resources */,
+				FC8B59FB2830B4B8008C157D /* MarketSaturday.otf in Resources */,
+				FC8B59BA2830527D008C157D /* Assets.xcassets in Resources */,
+				FC8B5A05283136DC008C157D /* 6 - Thunder.mp3 in Resources */,
+				FC8B59EF2830AF3B008C157D /* Tomatoes-O8L8.ttf in Resources */,
+				FC8B5A07283136E7008C157D /* 9 - Rain On Rooftop.mp3 in Resources */,
+				FC8B59B82830527B008C157D /* Main.storyboard in Resources */,
+				FC8B59F22830AF40008C157D /* MarketSaturday.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC8B59C12830527D008C157D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC8B59EB2830AF21008C157D /* BDDXS5XLARLIIXZSYA57LKYVBU.jpg in Resources */,
+				FCEDE93B28316736001D9C08 /* Main.storyboard in Resources */,
+				FCEDE93D28316C0F001D9C08 /* Assets.xcassets in Resources */,
+				FC8B59F02830AF3C008C157D /* Tomatoes-O8L8.ttf in Resources */,
+				FC8B5A0828313748008C157D /* 1 - Fire.mp3 in Resources */,
+				FC8B5A0C2831376E008C157D /* 9 - Rain On Rooftop.mp3 in Resources */,
+				FC8B5A0E28313773008C157D /* Ambient Sounds - Debarup Travel & Films in Resources */,
+				FC8B5A0A2831376A008C157D /* 6 - Thunder.mp3 in Resources */,
+				FC8B59E92830AF1D008C157D /* 171294266-lady-chef-is-holding-the-spatula-in-hand-vector-graphic-illustration-individually-on-a-white-backgro.jpg in Resources */,
+				FC8B59F82830AFBF008C157D /* MarketSaturday.ttf in Resources */,
+				FC8B59ED2830AF24008C157D /* f1digitals210300962-2.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC8B59CB2830527D008C157D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC8B59EC2830AF21008C157D /* BDDXS5XLARLIIXZSYA57LKYVBU.jpg in Resources */,
+				FCEDE93C28316737001D9C08 /* Main.storyboard in Resources */,
+				FCEDE93E28316C10001D9C08 /* Assets.xcassets in Resources */,
+				FC8B59F12830AF3C008C157D /* Tomatoes-O8L8.ttf in Resources */,
+				FC8B5A0928313748008C157D /* 1 - Fire.mp3 in Resources */,
+				FC8B5A0D2831376F008C157D /* 9 - Rain On Rooftop.mp3 in Resources */,
+				FC8B5A0F28313774008C157D /* Ambient Sounds - Debarup Travel & Films in Resources */,
+				FC8B5A0B2831376B008C157D /* 6 - Thunder.mp3 in Resources */,
+				FC8B59EA2830AF1E008C157D /* 171294266-lady-chef-is-holding-the-spatula-in-hand-vector-graphic-illustration-individually-on-a-white-backgro.jpg in Resources */,
+				FC8B59F92830AFC0008C157D /* MarketSaturday.ttf in Resources */,
+				FC8B59EE2830AF25008C157D /* f1digitals210300962-2.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC8B59A92830527B008C157D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC8B59FF2830BE3E008C157D /* MusicViewController.swift in Sources */,
+				FC8B59B52830527B008C157D /* ViewController.swift in Sources */,
+				FC8B59B12830527B008C157D /* AppDelegate.swift in Sources */,
+				FC8B59B32830527B008C157D /* SceneDelegate.swift in Sources */,
+				FCEDE93628315030001D9C08 /* WordScrambleViewController.swift in Sources */,
+				FCEDE94028318341001D9C08 /* SpiceFactViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC8B59BF2830527D008C157D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCEDE9372831672A001D9C08 /* MusicViewController.swift in Sources */,
+				FCEDE94128318D9B001D9C08 /* SpiceFactViewController.swift in Sources */,
+				FCEDE93928316730001D9C08 /* WordScrambleViewController.swift in Sources */,
+				FC8B59C82830527D008C157D /* CapstoneProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC8B59C92830527D008C157D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCEDE9382831672B001D9C08 /* MusicViewController.swift in Sources */,
+				FC8B59D22830527D008C157D /* CapstoneProjectUITests.swift in Sources */,
+				FCEDE93A28316731001D9C08 /* WordScrambleViewController.swift in Sources */,
+				FCEDE94228318D9C001D9C08 /* SpiceFactViewController.swift in Sources */,
+				FC8B59D42830527D008C157D /* CapstoneProjectUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC8B59C52830527D008C157D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC8B59AC2830527B008C157D /* CapstoneProject */;
+			targetProxy = FC8B59C42830527D008C157D /* PBXContainerItemProxy */;
+		};
+		FC8B59CF2830527D008C157D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC8B59AC2830527B008C157D /* CapstoneProject */;
+			targetProxy = FC8B59CE2830527D008C157D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC8B59B62830527B008C157D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC8B59B72830527B008C157D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC8B59BB2830527D008C157D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC8B59BC2830527D008C157D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC8B59D52830527D008C157D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FC8B59D62830527D008C157D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC8B59D82830527D008C157D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZRJ72D9952;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CapstoneProject/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = shreya.CapstoneProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC8B59D92830527D008C157D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZRJ72D9952;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CapstoneProject/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = shreya.CapstoneProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FC8B59DB2830527D008C157D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZRJ72D9952;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = shreya.CapstoneProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CapstoneProject.app/CapstoneProject";
+			};
+			name = Debug;
+		};
+		FC8B59DC2830527D008C157D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZRJ72D9952;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = shreya.CapstoneProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CapstoneProject.app/CapstoneProject";
+			};
+			name = Release;
+		};
+		FC8B59DE2830527D008C157D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZRJ72D9952;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = shreya.CapstoneProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CapstoneProject;
+			};
+			name = Debug;
+		};
+		FC8B59DF2830527D008C157D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZRJ72D9952;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = shreya.CapstoneProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CapstoneProject;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC8B59A82830527B008C157D /* Build configuration list for PBXProject "CapstoneProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC8B59D52830527D008C157D /* Debug */,
+				FC8B59D62830527D008C157D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC8B59D72830527D008C157D /* Build configuration list for PBXNativeTarget "CapstoneProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC8B59D82830527D008C157D /* Debug */,
+				FC8B59D92830527D008C157D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC8B59DA2830527D008C157D /* Build configuration list for PBXNativeTarget "CapstoneProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC8B59DB2830527D008C157D /* Debug */,
+				FC8B59DC2830527D008C157D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC8B59DD2830527D008C157D /* Build configuration list for PBXNativeTarget "CapstoneProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC8B59DE2830527D008C157D /* Debug */,
+				FC8B59DF2830527D008C157D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC8B59A52830527B008C157D /* Project object */;
+}
